@@ -1,5 +1,9 @@
 JSS Recipes
 ===============================
+
+# NOTE: This Repo has moved!
+This repository has been cleaned up and moved into the AutoPkg org at https://github.com/autopkg/jss-recipes. Please consider this repo as no-longer maintained.
+
 A collection of recipes for automatically creating self-service policies for the Casper Suite. All required sub-elements are configured and uploaded if needed, including scripts, smart-groups, packages (that's what AutoPkg is for, right?), extension attributes, and Self Service icons.
 
 Specifically, this creates policies in the "Testing" category which scope installation of the AutoPkg-created package to smart groups named after the application. These smart groups, in most cases, look for computers which do not have this version of the app, and which are members of the "Testing" group.
